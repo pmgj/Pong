@@ -1,0 +1,21 @@
+import Pong from "./Pong.js";
+import Direction from "./Direction.js";
+
+let p = new Pong(10, 15);
+p.startGame();
+p.setPlayer2Direction(Direction.DOWN);
+p.setPlayer1Direction(Direction.UP);
+p.updateBoard();
+//p.setPlayer2Direction(Direction.DOWN);
+p.updateBoard();
+//p.setPlayer2Direction(Direction.DOWN);
+p.updateBoard();
+//p.setPlayer2Direction(Direction.DOWN);
+p.updateBoard();
+//p.setPlayer2Direction(Direction.DOWN);
+p.updateBoard();
+//p.setPlayer2Direction(Direction.DOWN);
+//p.updateBoard();
+//p.updateBoard();
+//p.updateBoard();
+//p.updateBoard();
